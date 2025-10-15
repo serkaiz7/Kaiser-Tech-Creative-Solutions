@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaiser Tech & Creative Solutions | Isulan PC Repair & Digital Media</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a; /* Fallback color */
+            color: #e5e5e5; /* A light gray for text */
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #2dd4bf, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(23, 23, 23, 0.75); /* Increased opacity for better contrast */
+            backdrop-filter: blur(12px); /* Slightly more blur */
+            border: 1px solid rgba(55, 65, 81, 0.3); /* Subtle border */
+            border-radius: 1rem;
+        }
+        .glow-button {
+             box-shadow: 0 0 5px #2dd4bf, 0 0 10px #2dd4bf, 0 0 15px #38bdf8;
+        }
+        .tab-active {
+            background-color: #14b8a6; /* Teal 500 */
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Stunning Background -->
+    <div class="fixed top-0 left-0 w-full h-full -z-10">
+        <!-- 
+            BACKGROUND REPLACEMENT SIGN: 
+            The link below is a stable, high-quality placeholder. 
+            For best results, upload YOUR OWN photo of the Isulan roundabout to your project folder 
+            (e.g., into a folder named 'images') and change the src to a local path like 'images/roundabout.jpg'.
+        -->
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop" 
+             alt="Abstract tech background" 
+             class="w-full h-full object-cover opacity-50">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/80 to-black"></div> <!-- Dark overlay for readability -->
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-tighter">
+                <span class="gradient-text">Kaiser</span> Tech & Creative Solutions
+            </h1>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#services" class="text-gray-300 hover:text-teal-400 transition-colors">Services</a>
+                <a href="#showroom" class="text-gray-300 hover:text-teal-400 transition-colors">Showroom</a>
+                <a href="#about" class="text-gray-300 hover:text-teal-400 transition-colors">Why Us</a>
+            </nav>
+            <a href="https://m.me/kaiservives" target="_blank" rel="noopener noreferrer" class="px-5 py-2 text-sm font-semibold bg-teal-500 text-white rounded-full hover:bg-teal-400 transition-all transform hover:scale-105 glow-button">
+                Message Us
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center pt-24 pb-12" style="background-image: radial-gradient(circle at top, rgba(13, 148, 136, 0.15), transparent 40%);">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl md:text-7xl font-black tracking-tighter leading-tight mb-4">
+                    Kaiser <span class="gradient-text">Tech & Creative</span><br>Solutions
+                </h2>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-400 mb-8">
+                    Your one-stop shop in Isulan for professional PC building, hardware repair, and stunning creative media services. We bring your vision to life.
+                </p>
+                <a href="#contact" class="inline-block px-10 py-4 text-lg font-bold bg-teal-500 text-white rounded-full hover:bg-teal-400 transition-all transform hover:scale-105 glow-button">
+                    Start Your Project Today
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold tracking-tighter">Our Services</h3>
+                    <p class="text-gray-400 mt-2">One Provider, Endless Solutions.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Hardware Services Card -->
+                    <div class="glass-card p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <svg class="w-10 h-10 gradient-text" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.353-.026.715-.026 1.068 0 1.13.094 1.976 1.057 1.976 2.192v1.392M8.25 7.5h7.5m-7.5 0-1.125 1.125a1.5 1.5 0 0 0 0 2.121l1.125 1.125m-1.125-4.5h7.5m-7.5 0-1.125 1.125a1.5 1.5 0 0 1 0 2.121l1.125 1.125m-1.125-4.5h7.5m-7.5 0h.008v.008H8.25v-.008Zm0 8.25h.008v.008H8.25v-.008Zm-1.125-4.5a1.5 1.5 0 0 1 0-2.121l1.125-1.125m-1.125 2.121h7.5m-7.5 0h.008v.008H8.25v-.008Zm0 4.5h.008v.008H8.25v-.008Zm7.5-8.25h.008v.008h-.008v-.008Zm0 4.5h.008v.008h-.008v-.008Zm0 4.5h.008v.008h-.008v-.008Zm-3.375-4.5h.008v.008h-.008v-.008Zm0 4.5h.008v.008h-.008v-.008Z" /></svg>
+                            <h4 class="text-2xl font-bold">Computer Hardware</h4>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>PC & Laptop Repair</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Hardware Diagnostics & Troubleshooting</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>System Upgrades (RAM, SSD, GPU)</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Custom PC Building</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Virus & Malware Removal</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Data Recovery & Network Setup</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>On-Site Service & Support</li>
+                        </ul>
+                    </div>
+                    <!-- Creative Services Card -->
+                    <div class="glass-card p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <svg class="w-10 h-10 gradient-text" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9A2.25 2.25 0 0 0 13.5 5.25h-9A2.25 2.25 0 0 0 2.25 7.5v9A2.25 2.25 0 0 0 4.5 18.75Z" /></svg>
+                            <h4 class="text-2xl font-bold">Digital Creative</h4>
+                        </div>
+                         <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Video Editing Services</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Graphic Design (Logos, Branding)</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Motion Graphics & Animation</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Audio Editing & Production</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Social Media Content Creation</li>
+                            <li class="flex items-start"><span class="text-teal-400 mr-2 mt-1">&#10003;</span>Digital Media Production</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Showroom Section -->
+        <section id="showroom" class="py-20 bg-black/30">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold tracking-tighter">Our Showroom</h3>
+                    <p class="text-gray-400 mt-2">See Our Craftsmanship in Action.</p>
+                </div>
+                
+                <!-- Tabs -->
+                <div class="flex justify-center mb-8">
+                    <div class="bg-gray-800 rounded-full p-1 flex space-x-1">
+                        <button id="tab-pc" class="px-6 py-2 text-sm font-semibold rounded-full tab-active">PC Builds</button>
+                        <button id="tab-digital" class="px-6 py-2 text-sm font-semibold rounded-full text-gray-300">Digital Works</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div id="showroom-content">
+                    <!-- PC Builds Content (Visible by default) -->
+                    <div id="content-pc" class="grid grid-cols-1 md-grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Service 1 -->
+                        <div class="glass-card overflow-hidden group">
+                            <!-- IMAGE REPLACEMENT SIGN: Replace the 'src' link below with the path to your image. E.g., 'images/diagnostics.jpg' -->
+                            <img src="https://placehold.co/600x400/0a0a0a/2dd4bf?text=Diagnostics+&+Repair" alt="PC Diagnostics and Repair" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="p-6">
+                                <h5 class="text-xl font-bold mb-2">Diagnostics & Repair</h5>
+                                <p class="text-sm text-gray-400">We meticulously troubleshoot and repair hardware and software issues to get your system running perfectly.</p>
+                            </div>
+                        </div>
+                         <!-- Service 2 -->
+                        <div class="glass-card overflow-hidden group">
+                            <!-- IMAGE REPLACEMENT SIGN: Replace the 'src' link below with the path to your image. E.g., 'images/custom-pc.jpg' -->
+                            <img src="https://placehold.co/600x400/0a0a0a/38bdf8?text=Custom+Building" alt="Custom PC Building Service" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="p-6">
+                                <h5 class="text-xl font-bold mb-2">Custom Building</h5>
+                                <p class="text-sm text-gray-400">From component selection to clean cable management, we build bespoke PCs tailored to your needs and budget.</p>
+                            </div>
+                        </div>
+                         <!-- Service 3 -->
+                        <div class="glass-card overflow-hidden group">
+                            <!-- IMAGE REPLACEMENT SIGN: Replace the 'src' link below with the path to your image. E.g., 'images/upgrades.jpg' -->
+                            <img src="https://placehold.co/600x400/0a0a0a/eab308?text=Performance+Upgrades" alt="PC Performance Upgrades" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="p-6">
+                                <h5 class="text-xl font-bold mb-2">Performance Upgrades</h5>
+                                <p class="text-sm text-gray-400">Boost your speed and capabilities with professional RAM, SSD, GPU, and CPU upgrades.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital Works Content (Hidden by default) -->
+                    <div id="content-digital" class="grid grid-cols-1 md-grid-cols-2 lg:grid-cols-3 gap-8 hidden">
+                         <!-- Service 4 -->
+                         <div class="glass-card overflow-hidden group relative">
+                            <!-- VIDEO/IMAGE REPLACEMENT SIGN: Replace the 'src' link below with a thumbnail for your video. You can wrap this in an <a> tag to link to a YouTube video. -->
+                            <img src="https://placehold.co/600x400/0a0a0a/e11d48?text=Video+Editing" alt="Video Editing Service" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                             <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" /></svg>
+                            </div>
+                            <div class="p-6">
+                                <h5 class="text-xl font-bold mb-2">Video Editing</h5>
+                                <p class="text-sm text-gray-400">We transform raw footage into compelling stories with professional editing, color grading, and effects.</p>
+                            </div>
+                        </div>
+                         <!-- Service 5 -->
+                        <div class="glass-card overflow-hidden group">
+                            <!-- IMAGE REPLACEMENT SIGN: Replace the 'src' link below with the path to your image. E.g., 'images/graphic-design.jpg' -->
+                            <img src="https://placehold.co/600x400/0a0a0a/db2777?text=Graphic+Design" alt="Graphic Design Service" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="p-6">
+                                <h5 class="text-xl font-bold mb-2">Graphic Design</h5>
+                                <p class="text-sm text-gray-400">Creating impactful logos, branding, and social media visuals that capture your audience's attention.</p>
+                            </div>
+                        </div>
+                         <!-- Service 6 -->
+                        <div class="glass-card overflow-hidden group">
+                            <!-- IMAGE REPLACEMENT SIGN: Replace the 'src' link below with the path to your image. E.g., 'images/motion-graphics.gif' -->
+                            <img src="https://placehold.co/600x400/0a0a0a/c026d3?text=Motion+Graphics" alt="Motion Graphics Service" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                            <div class="p-6">
+                                <h5 class="text-xl font-bold mb-2">Motion Graphics</h5>
+                                <p class="text-sm text-gray-400">Bringing your brand to life with dynamic animations for intros, ads, and social media content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Why Choose Us Section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold tracking-tighter">Why Work With Us?</h3>
+                    <p class="text-gray-400 mt-2">Your Local Partner in Tech & Creative Excellence.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <div class="glass-card p-6">
+                        <h4 class="font-bold text-xl mb-2 gradient-text">Local & Trusted</h4>
+                        <p class="text-sm text-gray-400">Proudly serving Isulan and neighboring area of Sultan Kudarat. We're part of your community.</p>
+                    </div>
+                     <div class="glass-card p-6">
+                        <h4 class="font-bold text-xl mb-2 gradient-text">Expert Craftsmanship</h4>
+                        <p class="text-sm text-gray-400">Meticulous attention to detail in every build, repair, and creative project.</p>
+                    </div>
+                     <div class="glass-card p-6">
+                        <h4 class="font-bold text-xl mb-2 gradient-text">All-in-One Solution</h4>
+                        <p class="text-sm text-gray-400">Save time and hassle with one expert for all your tech and media needs.</p>
+                    </div>
+                     <div class="glass-card p-6">
+                        <h4 class="font-bold text-xl mb-2 gradient-text">Transparent Pricing</h4>
+                        <p class="text-sm text-gray-400">Fair, upfront pricing with no hidden fees. Get a free, no-obligation quote.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20" style="background-image: radial-gradient(circle at bottom, rgba(45, 212, 191, 0.1), transparent 40%);">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold tracking-tighter">Ready to Start?</h3>
+                    <p class="text-gray-400 mt-2 max-w-2xl mx-auto">The best way to get in touch is through our Facebook page. Send us a message, and we'll get back to you shortly!</p>
+                </div>
+                <div class="text-center">
+                    <a href="https://www.facebook.com/kaiservives" target="_blank" rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-4 px-10 py-4 text-lg font-bold bg-[#1877F2] text-white rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg" 
+                       style="box-shadow: 0 0 8px #1877F2, 0 0 16px #1877F2, 0 0 24px #38bdf8;">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V21.878A10.001 10.001 0 0022 12z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>Connect with us on Facebook</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Kaiser Tech & Creative Solutions. All Rights Reserved.</p>
+            <p class="mt-2">Proudly serving Isulan, Sultan Kudarat, Philippines.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for the showroom tabs
+        const tabPc = document.getElementById('tab-pc');
+        const tabDigital = document.getElementById('tab-digital');
+        const contentPc = document.getElementById('content-pc');
+        const contentDigital = document.getElementById('content-digital');
+
+        tabPc.addEventListener('click', () => {
+            // Show PC content, hide digital content
+            contentPc.classList.remove('hidden');
+            contentDigital.classList.add('hidden');
+            
+            // Update active tab styles
+            tabPc.classList.add('tab-active');
+            tabPc.classList.remove('text-gray-300');
+            tabDigital.classList.remove('tab-active');
+            tabDigital.classList.add('text-gray-300');
+        });
+        
+        tabDigital.addEventListener('click', () => {
+            // Show digital content, hide PC content
+            contentDigital.classList.remove('hidden');
+            contentPc.classList.add('hidden');
+
+            // Update active tab styles
+            tabDigital.classList.add('tab-active');
+            tabDigital.classList.remove('text-gray-300');
+            tabPc.classList.remove('tab-active');
+            tabPc.classList.add('text-gray-300');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
